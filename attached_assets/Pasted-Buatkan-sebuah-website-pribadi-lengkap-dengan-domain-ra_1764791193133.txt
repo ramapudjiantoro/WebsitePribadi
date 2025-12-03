@@ -1,0 +1,77 @@
+Buatkan sebuah website pribadi lengkap dengan domain ramapudjiantoro.com. Website ini harus mempresentasikan identitas, karakter, nilai hidup, ambisi, dan perjalanan pribadi seorang Rama Pudjiantoro secara jujur, elegan, modern, dan profesional.
+
+
+Informasi tentang Rama yang WAJIB dimasukkan ke dalam website (susun dengan struktur yang rapi, storytelling kuat, dan gaya desain clean):
+
+
+BIODATA & IDENTITAS
+Nama: Rama Pudjiantoro
+Usia: 21 Tahun
+Tinggal di Indonesia, sedang menempuh pendidikan S1 di Telkom University, Bandung
+Minat utama: pengembangan diri, konsistensi, journaling, psikologi, self-development, Bitcoin, blockchain, dan perkembangan teknologi digital khususnya AI.
+Nilai yang dipegang: kejujuran, loyal friendship and brotherhood, kontinuitas, pertumbuhan diri, tanggung jawab, dan refleksi.
+
+
+VISI HIDUP & TUJUAN PRIBADI
+Tampilkan visi 5 tahun ke depan:
+Stabil secara finansial dan mental.
+Menikah dengan kondisi siap lahir–batin dan finansial.
+Punya rumah, tanah, mobil Civic Turbo Hatchback Type R.
+Memiliki bisnis yang jalan dan menghasilkan pendapatan stabil.
+Liburan setiap 6 bulan bersama keluarga.
+Hidup yang seimbang antara spiritual (ibadah), keluarga, pekerjaan, dan pengembangan diri.
+Masukkan juga tujuan jangka panjang:
+Tinggal di Dubai bersama istri dan anak-anak di masa depan.
+Ingin menjadi versi dirinya yang lebih kuat, lebih matang, dan lebih bermanfaat.
+Ingin membuktikan diri kepada keluarga, teman, rival, dan juga kepada dirinya sendiri.
+
+
+PERJALANAN PRIBADI & KEHIDUPAN SEHARI-HARI
+Masukkan narasi harian Rama:
+Bangun pukul 4 pagi untuk sholat dan refleksi, meski kadang masih bolong dan ingin memperbaikinya.
+Journaling setiap pagi untuk merapikan pikiran dan fitness di gym setiap hari selama seminggu.
+Suka dan passionate dengan Boxing dan uang, idola favorit adalah dmitry bivol dan andrew tate.
+Suka kopi, nongkrong dengan teman, dan percakapan mendalam.
+Belajar dunia blockchain dan AI dari dasar sampai aplikasi nyata.
+Konsisten menyimpan Bitcoin di Tangem Wallet dan membangun sistem manajemen aset pribadi.
+Sedang menjalankan strategi AI Automation dan mengintegrasikan ke bisnis-bisnis dengan target cuan 100 juta rupiah.
+
+
+AMBITIONS & CURRENT PROJECTS
+Daftarkan ambisi besar Rama:
+Menjadi ahli di bidang AI
+Konsisten DCA Bitcoin, mengembangkan portofolio crypto dengan strategi yang disiplin.
+Menjadi pribadi yang stabil secara emosional dan mampu mengelola overthinking lewat refleksi harian.
+Menghasilkan income dari bisnis, dan digital asset.
+Membangun karier dan nama yang dihormati melalui boxing, bisnis, kerja keras, nilai hidup, dan mindset yang kuat.
+
+
+KELEBIHAN & NILAI UNIK
+Sertakan:
+Suka belajar hal dalam (psikologi, boxing, AI, teknologi).
+Visioner dan suka memetakan hidup.
+Memiliki lingkar pertemanan yang selaras nilai, meski tidak sering bertemu.
+Punya keinginan yang kuat untuk berubah, berkembang, dan menjadi lebih baik.
+
+
+STRUKTUR WEBSITE YANG KUAT
+Buatkan minimal:
+Homepage – hero section yang menggambarkan ambisi Rama dan perjalanan hidupnya.
+About Me – cerita penuh, jujur, dan mendalam tentang identitas dan latar belakang Rama.
+Life Vision – tujuan, rencana 5 tahun, dan blueprint hidup.
+Daily Journey – apa yang Rama lakukan setiap hari untuk mengejar mimpi-mimpinya.
+Boxing and Business Journey – kesukaan terhadap boxing, merintis awal bisnis dari ai automation
+
+
+Projects – bisnis AI automation, boxing, sistem BTC wallet flow, dan proyek lain.
+
+
+Journal & Reflections – tempat curhat, insight, dan perkembangan diri.
+Contact – email, sosial media, dll.
+Desain harus:
+Minimalis, modern, maskulin, bersih.
+Warna netral elegan (hitam, putih, gold, atau biru gelap).
+Typography tegas dan profesional.
+Responsif untuk mobile dan desktop.
+Punya micro-interaction yang halus.
+Gunakan bahasa Indonesia yang rapi, storytelling kuat, tapi tetap autentik.
