@@ -92,13 +92,13 @@ export function BoxingBusinessPreview() {
                 </div>
                 <p className="text-muted-foreground mb-4">
                   Menjalankan strategi AI Automation untuk mengintegrasikan solusi AI ke 
-                  bisnis-bisnis. Target: menghasilkan 100 juta rupiah dari proyek-proyek 
+                  bisnis-bisnis. Target: menghasilkan 1 milyar rupiah dari proyek-proyek 
                   AI automation dan digital assets.
                 </p>
                 <div className="flex items-center gap-4">
                   <div className="flex items-center gap-2">
                     <TrendingUp className="h-4 w-4 text-primary" />
-                    <span className="text-sm font-medium">Target: Rp 100M</span>
+                    <span className="text-sm font-medium">Target: Rp 1M</span>
                   </div>
                 </div>
               </div>

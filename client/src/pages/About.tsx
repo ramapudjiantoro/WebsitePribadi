@@ -115,7 +115,7 @@ export default function About() {
                 Saya tertarik dengan dunia blockchain dan AI dari level dasar hingga aplikasi nyata. 
                 Konsisten menyimpan Bitcoin di Tangem Wallet sambil membangun sistem manajemen aset 
                 pribadi. Saat ini, saya sedang menjalankan strategi AI Automation dengan target 
-                menghasilkan 100 juta rupiah dari integrasi AI ke berbagai bisnis.
+                menghasilkan 1 milyar rupiah dari integrasi AI ke berbagai bisnis.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Saya percaya bahwa kopi, nongkrong dengan teman, dan percakapan mendalam adalah 

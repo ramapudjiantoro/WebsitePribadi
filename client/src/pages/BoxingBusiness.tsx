@@ -50,10 +50,10 @@ const businessVentures = [
   {
     title: "AI Automation Services",
     description: "Mengembangkan dan mengintegrasikan solusi AI automation untuk berbagai bisnis. Fokus pada efisiensi operasional dan peningkatan produktivitas.",
-    target: "Rp 100 Juta",
+    target: "Rp 1 Milyar",
     status: "Active",
     metrics: [
-      { label: "Target Revenue", value: "Rp 100M" },
+      { label: "Target Revenue", value: "Rp 1M" },
       { label: "Focus", value: "SME Market" },
       { label: "Tech Stack", value: "AI/ML" },
     ],
@@ -265,7 +265,7 @@ export default function BoxingBusiness() {
           >
             <Card className="p-8 bg-primary/5 border-primary/20">
               <TrendingUp className="h-12 w-12 text-primary mx-auto mb-6" />
-              <h3 className="text-2xl font-bold mb-4">Target: Rp 100 Juta</h3>
+              <h3 className="text-2xl font-bold mb-4">Target: Rp 1 Milyar</h3>
               <p className="text-muted-foreground">
                 Target dari AI Automation dan digital assets. Dengan disiplin yang sama 
                 seperti di ring, target ini akan dicapai step by step.
