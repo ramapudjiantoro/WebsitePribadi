@@ -61,20 +61,41 @@ const dailyRoutine = [
   },
   { 
     time: "15:00", 
+    icon: Heart, 
+    activity: "Sholat Ashar", 
+    description: "Menunaikan kewajiban ibadah di sore hari sebelum melanjutkan aktivitas.",
+    category: "Spiritual"
+  },
+  { 
+    time: "15:30", 
     icon: Bitcoin, 
     activity: "Manage Portfolio", 
     description: "Review crypto portfolio, DCA Bitcoin, dan strategi investasi.",
     category: "Finansial"
   },
   { 
-    time: "16:00", 
+    time: "16:30", 
     icon: Coffee, 
     activity: "Networking & Kopi", 
     description: "Nongkrong dengan teman, percakapan mendalam tentang hidup dan bisnis.",
     category: "Sosial"
   },
   { 
+    time: "18:00", 
+    icon: Heart, 
+    activity: "Sholat Maghrib", 
+    description: "Ibadah saat matahari terbenam, waktu tenang di penghujung hari.",
+    category: "Spiritual"
+  },
+  { 
     time: "19:00", 
+    icon: Heart, 
+    activity: "Sholat Isya", 
+    description: "Ibadah penutup hari sebelum melanjutkan ke waktu berkualitas.",
+    category: "Spiritual"
+  },
+  { 
+    time: "19:30", 
     icon: Users, 
     activity: "Quality Time", 
     description: "Waktu untuk keluarga dan orang-orang terdekat.",
@@ -101,7 +122,7 @@ const habits = [
   { habit: "Journaling", frequency: "Setiap pagi", streak: "30+ hari" },
   { habit: "DCA Bitcoin", frequency: "Mingguan", streak: "6+ bulan" },
   { habit: "Membaca", frequency: "Harian", streak: "Ongoing" },
-  { habit: "Sholat Subuh", frequency: "Harian", streak: "Terus diperbaiki" },
+  { habit: "Sholat 5 Waktu", frequency: "Harian", streak: "Terus dijaga" },
 ];
 
 const categoryColors: Record<string, string> = {
