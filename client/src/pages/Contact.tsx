@@ -16,8 +16,8 @@ import { SiInstagram, SiLinkedin, SiGithub, SiX } from "react-icons/si";
 
 const socialLinks = [
   { icon: SiInstagram, href: "https://www.instagram.com/ramapudjiantoro/", label: "Instagram", username: "@ramapudjiantoro" },
-  { icon: SiLinkedin, href: "#", label: "LinkedIn", username: "Rama Pudjiantoro" },
-  { icon: SiGithub, href: "#", label: "GitHub", username: "@ramapudjiantoro" },
+  { icon: SiLinkedin, href: "https://www.linkedin.com/in/anugrahpudjiantoro/", label: "LinkedIn", username: "Rama Pudjiantoro" },
+  { icon: SiGithub, href: "https://github.com/ramapudjiantoro", label: "GitHub", username: "@ramapudjiantoro" },
   { icon: SiX, href: "#", label: "X", username: "@ramapudjiantoro" },
 ];
 
