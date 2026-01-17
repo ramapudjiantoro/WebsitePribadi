@@ -164,42 +164,56 @@ export default function Journey() {
           </motion.div>
 
           <div className="relative max-w-3xl mx-auto">
-            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-border" />
+            <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-border hidden md:block" />
+            <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-border md:hidden" />
             
             {dailyRoutine.map((item, index) => (
               <motion.div
                 key={item.time}
-                initial={{ opacity: 0, x: -30 }}
-                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
-                className="relative pl-20 pb-8 last:pb-0"
+                className={`relative flex flex-col md:flex-row items-center mb-12 last:mb-0 ${
+                  index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                }`}
                 data-testid={`routine-${index}`}
               >
-                <div className="absolute left-0 w-16 text-right">
-                  <span className="text-sm font-mono text-muted-foreground">{item.time}</span>
-                </div>
-                <div className="absolute left-[30px] w-4 h-4 rounded-full bg-primary border-4 border-background" />
-                
-                <Card className="p-4 hover-elevate">
-                  <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <item.icon className="h-5 w-5 text-primary" />
-                    </div>
-                    <div className="flex-1">
-                      <div className="flex items-center gap-2 mb-1 flex-wrap">
-                        <h3 className="font-semibold">{item.activity}</h3>
-                        <Badge 
-                          variant="secondary" 
-                          className={`text-xs ${categoryColors[item.category] || ""}`}
-                        >
-                          {item.category}
-                        </Badge>
-                      </div>
-                      <p className="text-sm text-muted-foreground">{item.description}</p>
+                {/* Time Indicator */}
+                <div className="flex md:contents">
+                  <div className={`hidden md:flex flex-1 justify-end px-8 ${index % 2 === 0 ? "" : "order-last justify-start"}`}>
+                    <div className="bg-primary/10 text-primary font-mono font-bold px-3 py-1 rounded-full text-sm">
+                      {item.time}
                     </div>
                   </div>
-                </Card>
+                  
+                  <div className="absolute left-8 md:left-1/2 md:-translate-x-1/2 w-4 h-4 rounded-full bg-primary border-4 border-background z-10" />
+                  
+                  <div className="flex-1 md:px-8 w-full pl-16 md:pl-0">
+                    <Card className="p-5 hover-elevate w-full">
+                      <div className="flex items-start gap-4">
+                        <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                          <item.icon className="h-6 w-6 text-primary" />
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-2 flex-wrap">
+                            <h3 className="font-bold text-lg">{item.activity}</h3>
+                            <Badge 
+                              variant="secondary" 
+                              className={`text-xs ${categoryColors[item.category] || ""}`}
+                            >
+                              {item.category}
+                            </Badge>
+                          </div>
+                          <p className="text-sm text-muted-foreground leading-relaxed">{item.description}</p>
+                          <div className="md:hidden mt-2 inline-block bg-primary/10 text-primary font-mono font-bold px-2 py-0.5 rounded text-xs">
+                            {item.time}
+                          </div>
+                        </div>
+                      </div>
+                    </Card>
+                  </div>
+                </div>
               </motion.div>
             ))}
           </div>
