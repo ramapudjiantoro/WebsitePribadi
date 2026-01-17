@@ -60,9 +60,12 @@ export default function About() {
             <span className="text-sm font-medium text-primary uppercase tracking-wider mb-4 block">
               About Me
             </span>
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6" data-testid="text-about-page-title">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-2" data-testid="text-about-page-title">
               Rama Pudjiantoro
             </h1>
+            <p className="text-sm font-light text-muted-foreground/50 mb-6 tracking-widest uppercase">
+              Anugrah Putra Pertama Pudjiantoro
+            </p>
             <p className="text-xl text-muted-foreground mb-8">
               21 tahun, mahasiswa, dan seorang yang terus berjuang menjadi versi terbaik dari dirinya sendiri.
             </p>
