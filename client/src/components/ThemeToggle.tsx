@@ -26,7 +26,7 @@ export function ThemeToggle() {
       size="icon"
       onClick={toggleTheme}
       data-testid="button-theme-toggle"
-      className="text-white/80 hover:text-white hover:bg-white/10"
+      className="text-foreground/80 hover:text-foreground hover:bg-accent"
     >
       {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
     </Button>
