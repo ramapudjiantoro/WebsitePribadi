@@ -76,7 +76,13 @@ export function Navigation() {
           </div>
 
           <div className="flex items-center gap-2">
-            <ThemeToggle />
+            <ThemeToggle 
+              className={
+                isScrolled 
+                  ? "text-foreground hover:bg-accent" 
+                  : "text-white hover:bg-white/10"
+              } 
+            />
             <Button
               variant="ghost"
               size="icon"
